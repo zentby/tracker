@@ -23,6 +23,7 @@ export class AmplitudeAPI implements VendorAPI<AmplitudeAPIOptions> {
   static defaultAPIOptions: Partial<AmplitudeAPIOptions> = {
     logLevel: 'DISABLE',
     saveEvents: false,
+    includeUtm: true,
     /* allow dma, os, platform, region, version_name */
     trackingOptions: {
       carrier: false,

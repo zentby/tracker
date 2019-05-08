@@ -25,6 +25,7 @@ export type AmplitudeAPIOptions = VendorAPIOptions & {
   trackingOptions?: Partial<TrackingOptions>;
   saveEvents?: boolean;
   sessionTimeout?: number;
+  includeUtm?: boolean;
 };
 
 function merge(defaults: any, target: any = {}) {
